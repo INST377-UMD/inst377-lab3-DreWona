@@ -91,6 +91,11 @@ body {
     background-color: pink;
 }
 
+#username:focus{
+    width: 500px;
+}
+
+
 /*main END*/
 
 
