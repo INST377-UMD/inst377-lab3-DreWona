@@ -1,0 +1,113 @@
+body {
+    background-color: bisque;
+}
+
+/* id=bar in the header and footer so that they both match*/
+#bar  {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    clear: both;
+
+}
+
+/*Nav chunk*/
+#main-nav {
+    background-color:  rgb(228, 129, 59);
+    text-align: left;
+    padding: Auto;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: maroon;
+    color: white;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+/* If theres a list element under a ul it will show */
+#main-nav li:hover ul {
+    display: block;
+    background-color: rgb(228, 129, 59);
+    float: left;
+    position: absolute;
+    padding: 0%;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+/*Nav chunk End*/
+
+/*main */
+.content-box {
+    background-color: rgb(69, 230, 176);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.content-area {
+    width: 72%;
+    float: left;
+}
+
+ .content-box:hover {
+    background-color: rgb(249, 161, 252);
+
+}
+
+#Rules {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: right;
+    width: 25%;
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+}
+
+#Rules:hover {
+    background-color: pink;
+}
+
+/*main END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
