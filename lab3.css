@@ -12,6 +12,11 @@ body {
     clear: both;
 
 }
+/*Change hyper link in footer*/
+#bar p a {
+    color: inherit;
+    text-decoration: none;
+}
 
 /*Nav chunk*/
 #main-nav {
@@ -50,6 +55,7 @@ body {
     padding: 10px;
 }
 
+/*Hides the hyperlink effect*/
 #main-nav a {
     color: inherit;
     text-decoration: none;
